@@ -15,7 +15,6 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
-.DS_Store
 
 # Generated files
 data/
@@ -30,3 +29,4 @@ layoutprompter.egg-info
 # My things
 presentations
 
+.DS_Store
