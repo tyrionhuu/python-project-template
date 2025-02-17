@@ -1,6 +1,7 @@
 # Project Template
 
 This is a repository for Python project templates, with Poetry as the package management tool.
+It uses black and isort to reformat the code. And flake8 is used to detect potential faults and format inconsistencies.
 
 ## Prerequisites
 
