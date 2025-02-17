@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "pptlayout"
+name = "name"
 version = "0.1.1"
-description = "Leverage llm to ameliorate the visual attractiveness of a presentation."
-authors = ["Tianyu Hu <tianyuhu@mail.ustc.edu.cn>"]
+description = "description"
+authors = ["Tianyu Hu <tyrionhuu@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
