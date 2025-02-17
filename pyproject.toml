@@ -63,4 +63,4 @@ exclude_lines = [
 ]
 
 [tool.setuptools]
-py-modules = ['pptlayout']
+py-modules = ['name']
