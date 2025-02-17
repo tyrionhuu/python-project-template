@@ -1,6 +1,6 @@
-# PPTLayout
+# Project Template
 
-This is a repository for PPTLayout
+This is a repository for Python project templates, with Poetry as the package management toll.
 
 ## Prerequisites
 
@@ -17,17 +17,17 @@ It is not necessary but totally fine to use [Conda](https://docs.conda.io/en/lat
 1. Clone this repository
 
     ``` shell
-    git clone git@github.com:tyrionhuu/PPTLayout.git
-    cd PPTLayout
+    git clone git@github.com:tyrionhuu/python-project-template.git
+    cd python-project-template
     ```
 
-2. Create virtual environment
+2. Create a virtual environment
 
    1. **conda**
    
     ``` shell
-    conda create -n pptlayout python=3.11
-    conda activate pptlayout
+    conda create -n python-project-template python=3.11
+    conda activate python-project-template
     ```
    
    2. **poetry**
@@ -45,7 +45,7 @@ It is not necessary but totally fine to use [Conda](https://docs.conda.io/en/lat
 
     Then Poetry should already activate the virtual environment for you. If not, you can activate it manually.
 
-4. Install the pre-commit hooks
+4. Install the pre-commit hooks, which is optional
 
     ``` shell
     pre-commit install
