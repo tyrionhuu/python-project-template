@@ -1,5 +1,9 @@
-# Project Template
+<h1 align="center">Python Project Template</h1>
 
+<p align="center">
+<a href="https://github.com/tyrionhuu/python-project-template/blob/main/LICENSE"><img alt="License: MIT" src="https://black.readthedocs.io/en/stable/_static/license.svg"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
 This is a repository for Python project templates, with Poetry as the package management tool.
 It uses black and isort to reformat the code. And flake8 is used to detect potential faults and format inconsistencies.
 
