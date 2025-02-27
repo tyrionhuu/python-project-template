@@ -9,6 +9,13 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.13"
+mypy = "^1.15.0"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+pre-commit = "^4.1.0"
+pipenv = "^2024.4.1"
+flake8 = "^7.1.2"
+nbstripout = "^0.8.1"
 
 [[tool.poetry.source]]
 # For use in Mainland China, you can use the following mirror source
@@ -17,7 +24,8 @@ url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
 priority = "primary"
 
 [tool.poetry.group.dev.dependencies]
-
+black = "^25.1.0"
+isort = "^6.0.1"
 
 [tool.black]
 line-length = 88
