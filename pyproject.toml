@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "name"
+name = "python project template"
 version = "0.1.1"
 description = "description"
 authors = ["Tianyu Hu <tyrionhuu@gmail.com>"]
@@ -57,4 +57,3 @@ exclude_lines = [
 
 # [tool.setuptools]
 # py-modules = ['name']
-package-mode = false
