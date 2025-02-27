@@ -11,7 +11,7 @@ It uses black and isort to reformat the code. And flake8 is used to detect poten
 
 This project uses [Poetry](https://python-poetry.org/) for dependency management. You can install it following the instructions [here](https://python-poetry.org/docs/#installation).
 
-Python 3.11 is required to run this project to avoid compatibility issues.
+Python 3.13 is required to run this project to avoid compatibility issues.
 
 As for the virtual environment, you can use any tool you like.
 
@@ -31,14 +31,14 @@ It is not necessary but totally fine to use [Conda](https://docs.conda.io/en/lat
    1. **conda**
    
     ``` shell
-    conda create -n python-project-template python=3.11
+    conda create -n python-project-template python=3.13
     conda activate python-project-template
     ```
    
    2. **poetry**
    
     ``` shell
-    poetry env use python3.11
+    poetry env use python3.13
     poetry shell
     ```
    
