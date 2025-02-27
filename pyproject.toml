@@ -8,13 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "~3.12"
-mypy = "*"
-pytest = "*"
-pytest-cov = "*"
-pre-commit = "*"
-pipenv = "*"
-flake8 = "*"
-nbstripout = "*"
+
 
 [[tool.poetry.source]]
 # For use in Mainland China, you can use the following mirror source
@@ -23,8 +17,7 @@ url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
 priority = "primary"
 
 [tool.poetry.group.dev.dependencies]
-black = "*"
-isort = "*"
+
 
 [tool.black]
 line-length = 88
